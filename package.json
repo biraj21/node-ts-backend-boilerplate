@@ -1,0 +1,30 @@
+{
+  "name": "node-ts-backend",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "tsc",
+    "dev": "npx nodemon src/index.ts"
+  },
+  "_moduleAliases": {
+    "@app": "./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/module-alias": "^2.0.4",
+    "@types/node": "^20.14.10",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "module-alias": "^2.2.3",
+    "typescript": "^5.5.3"
+  }
+}

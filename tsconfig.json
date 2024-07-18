@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "./src",
+    "strict": true,
+    "paths": {
+      "@app/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
