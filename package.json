@@ -5,7 +5,8 @@
   "scripts": {
     "start": "npm run build && node dist/index.js",
     "build": "tsc",
-    "dev": "npx nodemon src/index.ts"
+    "dev": "npx nodemon src/index.ts",
+    "docker-build": "sudo docker build -t my-node-server ."
   },
   "_moduleAliases": {
     "@app": "./dist"
