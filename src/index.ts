@@ -12,7 +12,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.json({
     success: true,
-    message: "hello world (docker branch)",
+    message: "hello world (DOCKER LOL BRANCH)",
   });
 });
 
